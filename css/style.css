@@ -53,7 +53,7 @@ html,body{
     widht:100%;
     height: 600px;
     //background-color: red;
-    background-image: linear-gradient(135deg, rgba(40, 40, 40,0.6) 100%,  rgba(40, 40, 40,0.6)  100%), url('../images/bgheader.jpg');
+    background-image: linear-gradient(135deg, rgba(40, 40, 40,0.6) 100%,  rgba(40, 40, 40,0.6)  100%), url('../images/bgheader.JPG');
     background-size: cover;
      background-attachment: fixed;
      position:relative;
@@ -141,7 +141,7 @@ html,body{
     position: relative;
     widht:100%;
     height: 450px;
-    background-image: linear-gradient(135deg, rgba(40, 40, 40,0.6) 100%,  rgba(40, 40, 40,0.6)  100%),url('../images/citation.jpg');
+    background-image: linear-gradient(135deg, rgba(40, 40, 40,0.6) 100%,  rgba(40, 40, 40,0.6)  100%),url('../images/citation.JPG');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -232,7 +232,7 @@ html,body{
     position: relative;
     
     height: 700px;
-    background-image: linear-gradient(135deg, rgba(40, 40, 40,0.6) 100%,  rgba(40, 40, 40,0.6)  100%),url('../images/me.jpg');
+    background-image: linear-gradient(135deg, rgba(40, 40, 40,0.6) 100%,  rgba(40, 40, 40,0.6)  100%),url('../images/me.JPG');
     background-size: cover;
     background-attachment: fixed;
     
