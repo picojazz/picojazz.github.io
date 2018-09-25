@@ -82,13 +82,12 @@ line-height: 1.7em;letter-spacing: 1px;">
 		<div class="row">
 			<div class="col-md-1"></div>
 				<div class="col-md-10 text-center ">
-					<p class="citation-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+					<p class="citation-text content">You should name a variable using the same care with which you name a first-born child.</p>
 
 				</div>
 		</div>
 		</div>
-		<p class="citation-author">fdsfgdsgds</p>
+		<p class="citation-author author">James O. Coplien</p>
 
 		<svg class="vague"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><polygon fill="#FFFFFF" points="0,100 100,0 100,100"></polygon></svg>
 	</div>
@@ -284,6 +283,24 @@ line-height: 1.7em;letter-spacing: 1px;">
           title:'PICOJAZZ'
         });
       }
+
+
+setInterval(function () {
+	
+	 $.getJSON('http://quotes.stormconsultancy.co.uk/random.json', function(a) {
+
+    var quote = a.quote;
+    var author= a.author;
+
+  $(".content").html(quote);
+
+  $(".author").html(author);
+  
+
+});
+
+}, 5000)
+      
     </script>
 <!-- jQuery and Bootstrap -->
     <script src="js/jquery-3.2.1.min.js"></script>
